@@ -1,0 +1,77 @@
+section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0%;
+    background-color: var(--licolo);
+    position: relative;
+}
+#foods{
+    background-color: var(--licolo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+#foods .jaymoh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1vh;
+    margin: 2% 0;
+}
+#foods .jaymoh hr{
+    width: 30%;
+}
+#foods .jaymoh .star{
+    width: 30px;
+    margin-top: 6%;
+    margin-left: 10px;
+}
+#foods h1{
+    font-family: 'Rampart One';
+}
+
+/* ================= RESPONSIVNESS ================== */
+
+@media only screen and (max-width:910px){
+    section{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media only screen and (max-width:850px){
+    section{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+@media only screen and (max-width:610px){
+    section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 5%;
+    }
+    #foods .jaymoh .star{
+        color: var(--docbg);
+    }
+}
+
+
+@media only screen and (max-width:450px){
+    .fullFoodMenu{
+        width: 100%;
+        height: auto;
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width:166px){
+    .fullFoodMenu{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

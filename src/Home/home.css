@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fcolor:#555;
+    --navfont: 'Courier New', Courier, monospace;
+    --navcolor:#3498db;
+    --logofont: Broadway;
+    --bg:url('./img/bg9.png');
+    --tfont: Ink Free;
+    --cafename: MV Boli;
+    --docbg: #121212;
+    --licolo:#fff;
+    --sech1:black;
+    --gold: gold;
+    --fadecolor:#ccc;
+    --linkhover:red;
+    --abouttxt1:LCDMono2;
+    --aboutbg: url('../Home/img/bg2.jpg');
+}
+.homePage{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    scroll-snap-align: start;
+}
+.container{
+    width: 95%;
+    height: 85vh;
+    margin-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), var(--bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    position: relative;
+    border-radius: 30px;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.body h1{
+    font-size: 50px;
+    font-family: 'Rampart One';
+    color: var(--fadecolor);
+    text-transform: uppercase;
+}
+.body h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Rampart One';
+    color: var(--gold);
+}
+.body h3{
+    font-size: 40px;
+    font-family: 'Oxygen', sans-serif;
+    color: var(--fadecolor);
+}
+
+
+/* ================= RESPONSIVNESS ================== */
+@media screen and (min-width:1110px){
+    .homePage{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:710px) {
+    .body h1{
+        font-size: 30px;
+    }
+    .body h2{
+        font-size: 40px;
+    }
+    .body h3{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:610px){
+    .body h1{
+        font-size: 25px;
+    }
+    .body h2{
+        font-size: 35px;
+    }
+    .body h3{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .body h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:260px){
+    .body h1{
+        font-size: 20px;
+    }
+    .body h2{
+        font-size: 30px;
+    }
+    .body h3{
+        font-size: 17px;
+    }
+}

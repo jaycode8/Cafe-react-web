@@ -1,0 +1,233 @@
+.aboutPage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--licolo);
+    position: relative;
+    scroll-snap-align: start;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+}
+.section1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.section2 h1{
+    color: var(--gold);
+    font-family: 'Rampart One';
+}
+.section2 h1 span{
+    color: var(--sech1);
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.section2 p{
+    line-height: 200%;
+    color:  var(--docbg);
+    font-size: 19px;
+    font-family: 'Merienda', cursive;
+    padding: 0 10%;
+}
+.section1 .imgbg{
+    width: 80%;
+    height: 70%;
+    background: var(--aboutbg);
+}
+.section2 #btn{
+    float: right;
+    right: 5%;
+    position: absolute;
+    margin-top: 70%;
+    font-family: 'Sofia';
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 1.3s;
+    color: black;
+}
+.section2 #btn:hover{
+    background: var(--navcolor);
+    color: var(--licolo);
+}
+.star{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.section2 hr{
+    width: 40%;
+}
+.section2 .jaymoh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1vh;
+    margin: 7% 0;
+}
+.section2 .jaymoh hr{
+    width: 40%;
+}
+.section2 .jaymoh .star{
+    width: 30px;
+    margin-top: 7%;
+}
+
+/* ================= RESPONSIVNESS ================== */
+@media only screen and (max-width:1110px){
+    .section2 #btn{
+        margin-top: 100%;
+    }
+}
+
+
+@media only screen and (max-width:1010px){
+    .section2 #btn{
+        margin-top: 140%;
+    }
+}
+
+@media only screen and (max-width:910px){
+    .section2 h1{
+        font-size: 33px;
+    }
+    .section2 p{
+        font-size: 16px;
+        line-height: unset !important;
+    }
+    .section2 #btn{
+        margin-top: 140%;
+    }
+}
+
+@media only screen and (max-width:810px){
+    .section2 h1{
+        font-size: 30px;
+    }
+    .section2 p{
+        font-size: 15px;
+    }
+    .section2 #btn{
+        float: right;
+        right: 2%;
+        position: absolute;
+        margin-top: 110%;
+    }
+}
+
+@media only screen and (max-width:710px){
+    .section2 p{
+        font-size: 15px;
+    }
+    .section2 #btn{
+        margin-top: 125%;
+    }
+}
+
+ 
+@media only screen and (max-width:610px) {
+    .section1{
+        width: 100%;
+    }
+    .section1 .imgbg{
+        width: 90%;
+        height: 80%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--aboutbg);
+    }
+    .section2{
+        width: 100%;
+    }
+    .section2 h1 span,.section2 p{
+        color: var(--licolo);
+    }
+    .section2 #btn{
+        background-color: aqua;
+        margin-top: 75%;
+    }
+    .section2 .jaymoh{
+        background-color: transparent;
+    }
+    .star{
+        color: var(--licolo);
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .section2 #btn{
+        background-color: aqua;
+        margin-top: 80%;
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .section2 #btn{
+        margin-top: 100%;
+        font-size: 14px;
+    }
+    .section1 .imgbg{
+        width: 95%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .section2 #btn{
+        margin-top: 120%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .section2 #btn{
+        margin-top: 140%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .section2 #btn{
+        margin-top: 160%;
+        font-size: 13px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:250px){
+    .section2 #btn{
+        margin-top: 180%;
+        font-size: 13px;
+        padding: 5px;
+    }
+}
+
+

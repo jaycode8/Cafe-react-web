@@ -1,0 +1,286 @@
+:root{
+    --img1:url('../Home/img/bg.jpg');
+    --img2: url('../Home/img/bg6.jpg');
+    --img3: url('../Home/img/bg3.jpg');
+    --img4: url('../Home/img/bg5.jpg');
+}
+
+
+.menuPage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: var(--licolo);
+    position: relative;
+    scroll-snap-align: start;
+}
+.container3{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionA{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.sectionB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.sectionB .gallery{
+    width: 90%;
+    height: 78%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+/* .sectionB .gallery img{
+    width: 98%;
+    height: 90%;
+    cursor: pointer;
+} */
+.sectionB .gallery div{
+    width: 98%;
+    height: 90%;
+    cursor: pointer;
+}
+.sectionB .gallery :nth-child(1){
+    background: var(--img1);
+    background-position: center;
+    background-size: cover;
+}
+.sectionB .gallery :nth-child(2){
+    background: var(--img2);
+    background-position: center;
+    background-size: cover;
+}
+.sectionB .gallery :nth-child(3){
+    background: var(--img3);
+    background-position: center;
+    background-size: cover;
+}
+.sectionB .gallery :nth-child(4){
+    background: var(--img4);
+    background-position: center;
+    background-size: cover;
+}
+.sectionA h1{
+    color: var(--gold);
+    font-family: 'Rampart One';
+    font-size: 30px;
+}
+.sectionA h1 span{
+    color: var(--sech1);
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.sectionA hr{
+    width: 40%;
+}
+.sectionA .jaymoh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1vh;
+    margin: 7% 0;
+}
+.sectionA .jaymoh hr{
+    width: 40%;
+}
+.sectionA .jaymoh .star{
+    width: 30px;
+    margin-top: 7%;
+}
+.sectionA .menutext{
+    line-height: 200%;
+    color:  var(--docbg);
+    font-size: 19px;
+    font-family: 'Merienda', cursive;
+    padding: 0 10%;
+}
+.sectionA .btn{
+    float: left;
+    left: 5%;
+    position: absolute;
+    margin-top: 60%;
+    font-family: 'Sofia';
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    color: var(--docbg);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 1.3s;
+}
+.sectionA .btn:hover{
+    background: var(--navcolor);
+    color: var(--licolo);
+}
+
+
+
+/* ================= RESPONSIVNESS ================== */
+@media only screen and (max-width:1110px){
+    .sectionA .btn{
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width:910px){
+    .sectionA .menutext{
+        font-size: 17px;
+        line-height: normal;
+    }
+    .sectionA .btn{
+        margin-top: 85%;
+    }
+}
+
+@media only screen and (max-width:810px){
+    .sectionA .menutext{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .sectionA .btn{
+        margin-top: 90%;
+    }
+}
+
+@media only screen and (max-width:710px){
+    .sectionA .btn{
+        margin-top: 110%;
+    }
+    .sectionB .gallery img{
+        width: 98%;
+        height: 80%;
+    }
+}
+
+
+@media only screen and (max-width:610px) {
+    .container3{
+        width: 100%;
+        height: 100vh;
+    }
+    .sectionA,.sectionB{
+        width: 100%;
+        height: 100vh;
+    }
+    .sectionA{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--img4);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-top: -30% !important;
+    }
+    .sectionA .menutext{
+        font-size: 17px;
+        margin-top: -5%;
+        color: var(--licolo);
+    }
+    .sectionA h1 span{
+        color: var(--licolo);
+    }
+    .sectionA .btn{
+        float: left;
+        left: 53%;
+        position: absolute;
+        margin-top: 80%;
+        color: var(--licolo);
+        background-color: aqua;
+    }
+    .sectionA .jaymoh{
+        background-color: transparent;
+    }
+    .sectionA .jaymoh .star{
+        color: var(--licolo);
+    }
+    .sectionB{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .sectionA .btn{
+        margin-top: 100%;
+        margin-left: -10%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .sectionA .btn{
+        margin-left: -30%;
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .sectionA {
+        margin-top: -30%;
+    }
+    .sectionA .menutext{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .sectionA .btn{
+        margin-left: -30%;
+        margin-top: 115%;
+        padding: 7px;
+        font-size: 13px;
+    }
+    .sectionA .menutext{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .sectionA .btn{
+        margin-left: -50%;
+        margin-top: 150%;
+        font-size: 11px;
+    }
+    .sectionA h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:240px){
+    .sectionA .btn{
+        margin-top: 190%;
+    }
+}
+
