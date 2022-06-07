@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Cafe-react-web/static/css/main.ea8f255a.css",
+    "main.js": "/Cafe-react-web/static/js/main.15cefea3.js",
+    "static/media/bg9.png": "/Cafe-react-web/static/media/bg9.3a62adc7ab3a473b1b39.png",
+    "static/media/bg3.jpg": "/Cafe-react-web/static/media/bg3.84ce6975826e4de4aca0.jpg",
+    "static/media/matoke.jpeg": "/Cafe-react-web/static/media/matoke.dcb55e45d6292c4b25fe.jpeg",
+    "static/media/bg.jpg": "/Cafe-react-web/static/media/bg.7c1bb6a793cbf5542f98.jpg",
+    "static/media/bg5.jpg": "/Cafe-react-web/static/media/bg5.2c972797a753c531411d.jpg",
+    "static/media/bg2.jpg": "/Cafe-react-web/static/media/bg2.4580111ac63641242864.jpg",
+    "static/media/githe.jpeg": "/Cafe-react-web/static/media/githe.c6922c3b6cf3ff9f9280.jpeg",
+    "static/media/fish.jpeg": "/Cafe-react-web/static/media/fish.e59daf18420d4e044052.jpeg",
+    "static/media/bg6.jpg": "/Cafe-react-web/static/media/bg6.fa785052f8dd30cd0e67.jpg",
+    "static/media/pilau.jpeg": "/Cafe-react-web/static/media/pilau.7df4a5eb9d1378512091.jpeg",
+    "static/media/rice.jpeg": "/Cafe-react-web/static/media/rice.039349206413d68143bc.jpeg",
+    "static/media/sandwitch.jpeg": "/Cafe-react-web/static/media/sandwitch.25ebf16f3ef01e1f2852.jpeg",
+    "static/media/chicken.jpeg": "/Cafe-react-web/static/media/chicken.32dc9cccc878492702e3.jpeg",
+    "static/media/pasta.jpeg": "/Cafe-react-web/static/media/pasta.a5f2c9864f0e6c9a33ec.jpeg",
+    "static/media/chapo.jpeg": "/Cafe-react-web/static/media/chapo.640696fe80965be8dc7f.jpeg",
+    "static/media/cabbage.jpeg": "/Cafe-react-web/static/media/cabbage.02052ded5b4ee3ca5299.jpeg",
+    "static/media/eggs.jpeg": "/Cafe-react-web/static/media/eggs.fcaf0506aab6ff8fb143.jpeg",
+    "static/media/burger.jpeg": "/Cafe-react-web/static/media/burger.32ddb6c52359756e55dd.jpeg",
+    "static/media/toast.jpeg": "/Cafe-react-web/static/media/toast.bcced4807fa8023b5e9d.jpeg",
+    "static/media/mukimo.jpeg": "/Cafe-react-web/static/media/mukimo.1992533b43ea47b9ba09.jpeg",
+    "static/media/chipo.jpeg": "/Cafe-react-web/static/media/chipo.7df8805632614e728243.jpeg",
+    "static/media/matumbo.jpeg": "/Cafe-react-web/static/media/matumbo.c4f5d95effaf4a85465b.jpeg",
+    "static/media/skuma.jpeg": "/Cafe-react-web/static/media/skuma.aa6b56b8dd9454dbee52.jpeg",
+    "static/media/ugali.jpeg": "/Cafe-react-web/static/media/ugali.90a8e0563b10255099c7.jpeg",
+    "index.html": "/Cafe-react-web/index.html",
+    "main.ea8f255a.css.map": "/Cafe-react-web/static/css/main.ea8f255a.css.map",
+    "main.15cefea3.js.map": "/Cafe-react-web/static/js/main.15cefea3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8f255a.css",
+    "static/js/main.15cefea3.js"
+  ]
+}
