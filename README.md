@@ -9,6 +9,6 @@
 <img src="https://raw.githubusercontent.com/jaycode8/Personal-Web-Portfolio/main/src/Components/About/Projects/img/rayc.png" />
 
 <div align="center">
-   <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="plastic"  />
-   <img src="https://img.shields.io/github/stars/jaycode8/Kasele-E-Commerce-?style=social" />
+   <img src="https://img.badgesize.io/https://github.com/jaycode8/Cafe-react-web.git" style="plastic"  />
+   <img src="https://img.shields.io/github/stars/jaycode8/Cafe-react-web?style=social" />
 </div>
